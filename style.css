@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.logo {
+    color: white;
+}
+.nav-items > a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-items > button {
+    margin-left: 15px;
+    background-color: blue;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.hero-section {
+    background-image: url(mac.png);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
