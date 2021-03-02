@@ -72,3 +72,12 @@ body {
     border: none;
     border-radius: 5px;
 }
+
+.job-offers {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+}
